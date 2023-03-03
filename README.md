@@ -29,7 +29,7 @@ npm run deploy
 
 I've also been using [Gitpod](https://www.gitpod.io) to do all of this in the browser which is nifty.
 
-![https://gitpod.io/#https://github.com/kyrrigle/team-combinator](https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod)
+[![](https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/kyrrigle/team-combinator)
 
 ## Deploy
 
