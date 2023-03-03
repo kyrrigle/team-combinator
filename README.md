@@ -12,6 +12,29 @@ Goals were:
 
 So this project is just a web page with some jQuery.  I store state in browser local storage so that it doesn't disappear if you reload the browser.  The [HTML5 UP](https://html5up.net) template I started with works great on iPhone.
 
+## Develop
+
+Not much too the development set up.  There's a npm project for ease of use:
+
+```
+# install packages
+npm install
+
+# start a local webserver
+npm run start
+
+# deploy via surge
+npm run deploy
+```
+
+I've also been using [Gitpod](https://www.gitpod.io) to do all of this in the browser which is nifty.
+
+![https://gitpod.io/#https://github.com/kyrrigle/team-combinator](https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod)
+
+## Deploy
+
+I used [Surge.sh](https://surge.sh) to quickly and easily deploy to [https://team-combinator.surge.sh/](https://team-combinator.surge.sh/)
+
 ## Images
 
 All the images come from [Unsplash](https://unsplash.com/s/photos/volleyball?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)-
