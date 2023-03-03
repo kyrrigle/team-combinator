@@ -4,6 +4,7 @@
   "description": "Micro web app to simplify picking teams",
   "main": "none",
   "scripts": {
+    "deploy": "surge",
     "start": "http-server -c-1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/kyrrigle/team-combinator#readme",
   "dependencies": {
-    "http-server": "^14.1.1"
+    "http-server": "^14.1.1",
+    "surge": "^0.23.1"
   }
 }
