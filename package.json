@@ -1,0 +1,23 @@
+{
+  "name": "team-combinator",
+  "version": "1.0.0",
+  "description": "Micro web app to simplify picking teams",
+  "main": "none",
+  "scripts": {
+    "start": "http-server -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyrrigle/team-combinator.git"
+  },
+  "author": "Matt King <kyrrigle@gmail.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/kyrrigle/team-combinator/issues"
+  },
+  "homepage": "https://github.com/kyrrigle/team-combinator#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
