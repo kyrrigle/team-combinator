@@ -68,6 +68,11 @@ $(document).ready(function() {
         });
         $(`#${id}`).on('change', function() {
             const value = $(this).val();
+            if (names.includes(value)) {
+              window.alert("That name already exists!");
+              $(this).val(names[idx-1]);
+              return;
+            }
             names[idx-1] = value;
             stats.wins[value] = 0;
             stats.losses[value] = 0;
